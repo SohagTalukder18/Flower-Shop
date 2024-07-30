@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------Header Section--------- */
+header {
+    background-color: #FCEEF1;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 25px 0px;
+    display: flex;
+
+    align-items: center;
+}
+
+.beautiful-flower {
+    max-width: 500px;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 1rem;
+    color: #7C7677;
+    padding-block: 30px;
+}
+
+.btn {
+    background-color: #E55473;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+
+.flower-image {
+    padding-left: 50px;
+    max-width: 500px;
+}
+
+.flower-image img {
+    width: 100%;
+}
+
+/* ----------Featured Section----------- */
+.featured {
+    max-width: 1000px;
+    margin: 50px auto
+}
+
+.our-featured {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-title {
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.featured-description {
+    font-size: 1rem;
+    color: #7C7677;
+}
+
+.featured-flower {
+    /* padding: 25px; */
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+
+}
+
+.flower-card-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.flower-card-container a {
+    color: #272727;
+}
+
+.flower-card {
+    width: 300px;
+    padding: 49px;
+    margin-bottom: 25px;
+    height: 350px;
+    border-radius: 47% 47% 0px 0px;
+    background-color: #E3EBDB;
+}
+
+.flower-card-1 {
+    background-color: #F1DDE7;
+}
+
+.flower-card-2 {
+    background-color: #D9EFF0;
+}
+
+.flower-card img {
+    width: 200px;
+    margin-inline: auto;
+}
+
+.card-1 {
+    margin-top: 25px;
+}
+
+.card-2 {
+    margin-top: 50px;
+}
+
+/* ------------Delivery Section----------- */
+.delivery {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 50px 70px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-description {
+    font-size: 1.2rem;
+    color: #797979;
+    padding-top: 15px;
+}
+/* -----------Deal Section------------ */
+.deal-section{
+    background-color: #FDF6F8;
+}
+.deal-container{
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discount{
+    max-width: 450px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.discount-title{
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+.discount-title span{
+    color: #E55473;
+}
+.discount-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #959293;
+    padding-bottom: 25px;
+}
+.discount-image img{
+    width: 250px;
+}
+/* ------------Instagram----------- */
+.instagram-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    
+}
+.instagram-title-wrapper{
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
+    padding-inline: 25px;
+}
+.instagram-title{
+    font-size: 2rem;
+}
+.instagram-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-block: 25px;
+    color: #797979;
+}
+.instagram-picture{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.instagram-picture img{
+    margin: 0 auto;
+    width: 240px;
+}
+/* ------------Latest Deals------------- */
+.latest-deal{
+    max-width: 1000px;
+    /* height: 300px; */
+    margin: 70px auto;
+    padding: 60px 60px 80px 60px;
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+
+.latest-deal-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.latest-deal-description{
+    font-size: 0.9rem;
+    color: #797979;
+    padding-block: 10px;
+}
+#dealer-email{
+    width: 400px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* --------------Footer Section------------ */
+footer{
+    padding-block: 100px;
+    background-color: #111010;
+}
+.footer-wrapper{
+    max-width: 500px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding-block: 25px;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-description{
+    font-size: 0.9rem;
+    color: #E6E6E6;
+}
+.copyright{
+    padding-top: 25px;
+    font-size: 0.7rem;
+    color: #6A6969;
+}
+
+
+
+
+/* Small device Responsive */
+@media screen and (max-width:576px) {
+    .header-container, .delivery, .deal-container{
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .featured-flower, .instagram-picture{
+        grid-template-columns: 1fr;
+    }
+
+    .flower-card-container{
+        margin: 0 auto;
+    }
+    .delivery{
+        margin: 0px 25px;
+    }
+    .delivery-card{
+        margin: 30px 0px;
+    }
+    .latest-deal{
+        max-width: 330px;
+        padding: 15px;
+    }
+    .latest-deal-title{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+    #dealer-email{
+        display: block;
+        width: 300px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        
+    }
+    
+
+}
+
+/* medium device responsive */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .title {
+        font-size: 2rem;
+    }
+    .featured-flower, .instagram-picture{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flower-card-container{
+        margin: 0 auto;
+    }
+}
